@@ -1,0 +1,18 @@
+movie_sentiment_analysis/
+│
+├── sentiment_analysis.ipynb   # ML experiments (Days 1–6)
+│
+├── app.py                     # Streamlit web app
+│
+├── model/
+│   ├── lr_model.pkl           # Saved trained model
+│   └── tfidf_vectorizer.pkl   # Saved vectorizer
+│
+├── utils/
+│   ├── preprocess.py          # clean_text()
+│   └── sentiment_logic.py     # Day 6 aggregation logic
+│
+├── data/
+│   └── sample_reviews.json    # (optional, testing)
+│
+└── README.md

@@ -1,0 +1,5 @@
+Use TMDB (movie data) using API create acc on TMDB and have your own api key to access the TMDB database.
+
+Json viewer to see the json data structure because the json data is not human redable.
+
+RapidAPI can get data from multiple brands API available on rapidAPI.

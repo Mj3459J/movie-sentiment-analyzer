@@ -1,0 +1,58 @@
+## Resume Bullet Points
+- Built an end-to-end movie sentiment analysis system using Logistic Regression and TF-IDF
+- Integrated real-time movie data and reviews using the TMDB API
+- Developed an interactive web application using Streamlit
+- Deployed a trained ML model for real-time inference
+
+## Interview Questions You WILL Be Asked
+
+### Why did you use TF-IDF?
+> TF-IDF captures both word importance and frequency, making it more effective than simple Bag-of-Words for sentiment analysis.
+
+---
+
+### Why Logistic Regression?
+> Logistic Regression performs well on high-dimensional sparse text data and provides probability outputs, which helped in rating calculation.
+
+---
+
+### How is the rating calculated?
+> I averaged the positive sentiment probabilities across reviews and scaled the result to a 0–10 range, similar to IMDb ratings.
+
+---
+
+### What happens if no reviews are available?
+> The app handles it gracefully by notifying the user instead of producing unreliable predictions.
+
+---
+
+### What was the hardest part?
+> Managing Streamlit’s rerun behavior and implementing proper session state handling to maintain UI flow.
+
+---
+
+## Final Self-Check
+
+- [x] App runs without error  
+- [x] ML model loads correctly  
+- [x] Reviews fetched successfully  
+- [x] Rating shown correctly  
+- [x] README present  
+- [x] Resume bullets ready  
+- [x] Can explain every step  
+
+---
+
+## Final Words
+
+You didn’t just:
+- “build a project”
+
+You:
+- Designed an ML pipeline
+- Integrated real APIs
+- Handled edge cases
+- Debugged real errors
+- Thought like a product developer
+
+That’s exactly what interviewers look for.
