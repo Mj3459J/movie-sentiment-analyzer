@@ -1,6 +1,7 @@
 import requests
+import os
 
-API_KEY="25400c916d47c0d01f592ad122c83993"
+API_KEY=os.getenv("TMDB_API_KEY")
 BASE_URL="https://api.themoviedb.org/3"
 
 def fetch_reviews(movie_id,max_reviews=20):
